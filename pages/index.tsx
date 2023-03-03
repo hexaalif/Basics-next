@@ -19,7 +19,7 @@ import jwt from "jsonwebtoken";
 
 export default function Home() {
   const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [password, setPassword] = useState(" ");
 
   const [message, setMessage] = useState("you are not logged in");
 
